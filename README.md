@@ -4,7 +4,7 @@ Pull the repo with "git pull (repo url)"
 
 Run "npm install" to install dependencies
 
-Add ".env" file containing the assword and app ID keys for the application you're communicating with, these can be found via "Developer Portal> Tools> Bot Managment>" to find bot ID and then selecting your bot and navagating to "Client Secrets" for the password
+Add ".env" file containing the password and app ID keys for the application you're communicating with - these can both be found via "Developer Portal> Tools> Bot Managment>" to find bot ID and then selecting your bot and navagating to "Client Secrets" for the password
 
 Add ".notification.localstore" for local storage or alternativly configure to use your own storage via "src> internal> initialize.js"
 
