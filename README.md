@@ -14,7 +14,10 @@ Add ".notification.localstore" for local storage or alternativly configure to us
 
 # To send post request with required Json locally:
 
-" curl -X POST http://localhost:3978/api/notification \
+<pre>
+<code>
+```
+curl -X POST http://localhost:3978/api/notification \
   -H "Content-Type: application/json" \
   -d '{
     "gpm": "-896 gal",
@@ -23,8 +26,10 @@ Add ".notification.localstore" for local storage or alternativly configure to us
     "tankNetwork": "This works!",
     "duration": 3600,
     "cesUrl": "https://lmgtfy.click/?q=How%20to%20close%20a%20valve%3F"
-  }' "
-
+  }'
+```
+</code>
+</pre>
 
 # Overview of the Notification bot template
 
