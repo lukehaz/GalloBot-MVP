@@ -1,6 +1,6 @@
 # Getting Started
 
-Pull the repo with "git pull <url>"
+Pull the repo with "git pull (repo url)"
 
 run "npm install" to install dependencies
 
