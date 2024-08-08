@@ -1,3 +1,21 @@
+#To run the server:
+
+"npm start"
+
+#To send post request with required Json:
+
+" curl -X POST http://localhost:3978/api/notification \
+  -H "Content-Type: application/json" \
+  -d '{
+    "gpm": "-896 gal",
+    "tank": "2001",
+    "workOrder": "24-120821",
+    "tankNetwork": "This works!",
+    "duration": 3600,
+    "cesUrl": "https://lmgtfy.click/?q=How%20to%20close%20a%20valve%3F"
+  }' "
+
+
 # Overview of the Notification bot template
 
 This template showcases an app that send a message to Teams with Adaptive Cards triggered by a HTTP post request. You can further extend the template to consume, transform and post events to individual, chat or channel in Teams.
