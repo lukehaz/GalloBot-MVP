@@ -1,0 +1,181 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+      {
+          "type": "TextBlock",
+          "size": "Medium",
+          "weight": "Default",
+          "text": "CES Wine Loss Service",
+          "style": "heading",
+          "wrap": true,
+          "spacing": "None",
+          "fontType": "Default",
+          "horizontalAlignment": "Left"
+      },
+      {
+          "type": "TextBlock",
+          "weight": "Bolder",
+          "text": "Active Wine Loss Alert",
+          "wrap": true,
+          "color": "Attention",
+          "isSubtle": true,
+          "size": "Large"
+      },
+      {
+          "type": "ColumnSet",
+          "columns": [
+              {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                      {
+                          "type": "TextBlock",
+                          "weight": "Lighter",
+                          "text": "Duration:",
+                          "wrap": true,
+                          "spacing": "None",
+                          "size": "Medium"
+                      }
+                  ]
+              },
+              {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                      {
+                          "type": "TextBlock",
+                          "text": "${duration} min",
+                          "wrap": true,
+                          "weight": "Lighter",
+                          "size": "Medium"
+                      }
+                  ],
+                  "spacing": "Small"
+              }
+          ]
+      },
+      {
+          "type": "ColumnSet",
+          "columns": [
+              {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                      {
+                          "type": "Container",
+                          "style": "emphasis",
+                          "items": [
+                              {
+                                  "type": "TextBlock",
+                                  "weight": "Lighter",
+                                  "text": "GPM",
+                                  "wrap": true,
+                                  "size": "Large"
+                              },
+                              {
+                                  "type": "TextBlock",
+                                  "text": "${gpm}",
+                                  "wrap": true,
+                                  "weight": "Bolder",
+                                  "size": "Large"
+                              }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                      {
+                          "type": "Container",
+                          "style": "emphasis",
+                          "items": [
+                              {
+                                  "type": "TextBlock",
+                                  "weight": "Lighter",
+                                  "text": "Tank",
+                                  "wrap": true,
+                                  "size": "Large"
+                              },
+                              {
+                                  "type": "TextBlock",
+                                  "text": "${tank}",
+                                  "wrap": true,
+                                  "weight": "Bolder",
+                                  "size": "Large"
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "type": "ColumnSet",
+          "columns": [
+              {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                      {
+                          "type": "Container",
+                          "style": "emphasis",
+                          "items": [
+                              {
+                                  "type": "TextBlock",
+                                  "weight": "Lighter",
+                                  "text": "Tank Network",
+                                  "wrap": true,
+                                  "size": "Large"
+                              },
+                              {
+                                  "type": "TextBlock",
+                                  "text": "${tankNetwork}",
+                                  "wrap": true,
+                                  "weight": "Bolder",
+                                  "size": "Large"
+                              }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                      {
+                          "type": "Container",
+                          "style": "emphasis",
+                          "items": [
+                              {
+                                  "type": "TextBlock",
+                                  "weight": "Lighter",
+                                  "text": "Work Order",
+                                  "wrap": true,
+                                  "size": "Large"
+                              },
+                              {
+                                  "type": "TextBlock",
+                                  "text": "${workOrder}",
+                                  "wrap": true,
+                                  "weight": "Bolder",
+                                  "size": "Large"
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ]
+      }
+  ],
+  "actions": [
+      {
+          "type": "Action.OpenUrl",
+          "title": "Open in CES",
+          "url": "${cesUrl}"
+      }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5"
+}
