@@ -1,3 +1,13 @@
+#Getting Started
+
+Pull the repo with "git pull <url>"
+
+run "npm install" to install dependencies
+
+Add ".env" file containing the Password and app ID keys for the application you're communicating with
+
+Add ".notification.localstore" for local storage or alternativly configure to use your own storage via "src> internal> initialize.js"
+
 # To run the server:
 
 "npm start"
