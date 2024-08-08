@@ -1,8 +1,8 @@
-#To run the server:
+# To run the server:
 
 "npm start"
 
-#To send post request with required Json:
+# To send post request with required Json locally:
 
 " curl -X POST http://localhost:3978/api/notification \
   -H "Content-Type: application/json" \
