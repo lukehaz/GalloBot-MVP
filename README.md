@@ -16,7 +16,6 @@ Add ".notification.localstore" for local storage or alternativly configure to us
 
 <pre>
 <code>
-```
 curl -X POST http://localhost:3978/api/notification \
   -H "Content-Type: application/json" \
   -d '{
@@ -27,7 +26,6 @@ curl -X POST http://localhost:3978/api/notification \
     "duration": 3600,
     "cesUrl": "https://lmgtfy.click/?q=How%20to%20close%20a%20valve%3F"
   }'
-```
 </code>
 </pre>
 
